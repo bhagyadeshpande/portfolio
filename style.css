@@ -1,0 +1,128 @@
+body {
+  background-color: black !important;
+  color: beige !important;
+}
+#text-color {
+  margin-top: 10px;
+}
+#text-color a {
+  color: aquamarine;
+}
+.align-name {
+  position: relative;
+  right: 645px;
+  font-family: cursive;
+  font-size: large;
+  border: 1px dotted darkgray;
+  border-radius: 30px;
+}
+#main-content {
+  margin-top: 100px;
+  text-align: center;
+}
+#first-line {
+  font-size: xx-large;
+}
+#second-line {
+  font-size: x-large;
+}
+#myname {
+  font-family: emoji;
+  font-size: xx-large;
+  color: coral;
+}
+#third-line {
+  font-size: x-large;
+}
+#myPic {
+  border: 1px transparent black;
+  border-radius: 30px;
+}
+#resumeLink {
+  margin-top: 25px;
+  margin-left: 150px;
+}
+#resumeLink a:hover {
+  background-color: brown;
+}
+.style-btn {
+  width: 170px !important;
+  margin-right: 10px !important;
+}
+.aboutMe {
+  width: 700px !important;
+  margin-top: 30px;
+  text-align: center justify !important;
+}
+#about-heading {
+  font-size: xx-large;
+  color: cadetblue;
+}
+.abtMe {
+  font-size: 18px;
+}
+#skill-heading {
+  font-size: xx-large;
+  color: cadetblue;
+}
+.exp-heading {
+  font-size: xx-large;
+  color: cadetblue;
+}
+.align-bars {
+  margin-left: 120px;
+  margin-top: -15px;
+}
+#list-spacing li {
+  padding-bottom: 5px;
+}
+.contactMe {
+  margin-top: 50px;
+  text-align: center !important;
+}
+.contactRow {
+  padding: 50px;
+}
+.zoom {
+  padding: 50px;
+  background-color: black;
+  border: 1px solid cadetblue;
+  transition: transform 0.2s;
+  width: 300px;
+  height: 180px;
+  margin: 0 auto;
+}
+.zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+.homeIcon {
+  margin-top: -36px;
+}
+#adrList {
+  list-style-type: none;
+  margin-left: -38px;
+}
+#phoneIcon {
+  margin-top: 20px;
+  font-size: larger;
+}
+#mailIcon {
+  margin-left: -28px;
+  margin-top: 22px;
+}
+.project {
+  margin-top: 40px;
+}
+.projectCard {
+  margin-top: 40px;
+  text-align: center;
+}
+.projectCards {
+  background-color: rgb(228, 205, 205) !important;
+  width: 20rem;
+}
+.projCardBody {
+  color: darkred !important;
+}
