@@ -2,15 +2,19 @@ body {
   background-color: black !important;
   color: beige !important;
 }
+
 #text-color {
   margin-top: 10px;
 }
 #text-color a {
   color: aquamarine;
 }
+#text-color a:hover {
+  background-color: brown;
+}
 .align-name {
   position: relative;
-  right: 645px;
+  right: 620px;
   font-family: cursive;
   font-size: large;
   border: 1px dotted darkgray;
@@ -31,11 +35,11 @@ body {
   font-size: xx-large;
   color: coral;
 }
-#third-line {
+.third-line {
   font-size: x-large;
 }
 #myPic {
-  border: 1px transparent black;
+  border: 1px dotted rgb(167, 162, 162);
   border-radius: 30px;
 }
 #resumeLink {
